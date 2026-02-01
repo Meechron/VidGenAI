@@ -1,0 +1,22 @@
+# ThoughtChain Video Generator - Dependencies
+# Install with: pip install -r requirements.txt
+
+# API Clients
+anthropic>=0.18.0          # Claude API - for Director, Scene, Consistency, Critic agents
+replicate>=0.25.0          # Replicate API - for Keyframe, Interpolation agents
+requests>=2.31.0           # HTTP requests - for downloading images
+
+# Image Processing
+Pillow>=10.0.0             # Load, save, resize images
+
+# Video Processing
+opencv-python>=4.8.0       # Combine frames into MP4 video
+
+# Data Validation
+pydantic>=2.0.0            # Ensure JSON structures are correct
+
+# Configuration
+python-dotenv>=1.0.0       # Load API keys from .env file
+
+# User Interface
+rich>=13.0.0               # Pretty terminal output, progress bars
